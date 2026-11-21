@@ -1,0 +1,13 @@
+{"apiVersion": "2", "jobs": [
+  {"id": 201, "url": "https://jobicy.com/jobs/201-qa-tester", "jobTitle": "QA Tester", "companyName": "Acme Games",
+   "jobGeo": "Europe", "pubDate": "2026-11-17 09:00:00",
+   "jobDescription": "<p>Manual testing &amp; bug reports for mobile games.</p>"},
+  {"id": 202, "url": "https://jobicy.com/jobs/202-technical-writer", "jobTitle": "Technical Writer",
+   "companyName": "Globex Docs", "jobGeo": "EMEA,  APAC", "pubDate": "2026-11-16 09:00:00",
+   "jobExcerpt": "Write product documentation."},
+  {"id": 203, "url": "https://jobicy.com/jobs/203-sales", "jobTitle": "Sales Representative", "companyName": "Initech",
+   "jobGeo": "USA", "pubDate": "2026-11-16 09:00:00", "jobDescription": "<p>Sell things.</p>"},
+  {"id": 204, "url": "https://jobicy.com/jobs/204-data-engineer", "jobTitle": "Data Engineer",
+   "companyName": "Massive Dynamic", "jobGeo": "Canada", "pubDate": "2026-11-14 09:00:00",
+   "jobDescription": "<p>Pipelines.</p>"}
+]}

@@ -1,0 +1,122 @@
+# Settings for job-listing-pipeline.
+# `python -m jobpipe init` copies this file to config.toml. Edit config.toml, not this file.
+#
+# Words below match whole words, ignoring case. Put * at the end to match any ending:
+# "test*" matches test, tester and testing. Phrases like "quality assurance" work too.
+#
+# Companies and words you want to block, and jobs you want to hide, are not here:
+# they are plain text files in the lists/ folder, one per line.
+
+[location]
+# Remote jobs are kept when their allowed region contains one of these words, or names
+# no region at all (then they are marked "region unclear", so check before applying).
+country = "Bulgaria"
+accept_regions = ["worldwide", "anywhere", "global", "international", "europe", "european", "eu",
+                  "eea", "emea", "cet", "cest", "eet", "eest", "eastern europe", "bulgaria", "sofia"]
+# The UTC offsets you can work in. Used for "UTC+2" style regions and time-zone limits.
+utc_offset_min = 0
+utc_offset_max = 3
+# Office or hybrid jobs are kept only in these places. Use [] for remote jobs only.
+onsite_places = ["sofia", "bulgaria"]
+
+[sources]
+# true = read this source, false = skip it.
+remotive = true
+remoteok = true
+jobicy = true
+himalayas = true
+weworkremotely = true
+workingnomads = true
+hackernews = true          # the monthly "Ask HN: Who is hiring?" thread
+watchlist = true           # the company career pages listed at the end of this file
+
+[sources.options]
+cache_hours = 6            # reuse a source's answer for this long; Remotive asks for at most 4 calls a day
+himalayas_queries = ["qa", "quality assurance", "test automation", "data analyst", "data quality",
+                     "security analyst", "ai evaluation", "technical writer"]
+himalayas_max_pages = 3    # 20 jobs a page; more pages per query can hit their rate limit
+jobicy_geos = ["europe", "emea"]
+user_agent = "job-listing-pipeline (+https://github.com/Buhuihanguoren/job-listing-pipeline)"
+
+[filters]
+# Keep a job only if its title contains one of these. Use [] to keep every title.
+title_must_contain = ["qa", "test*", "quality", "analyst*", "data", "security", "ai", "python",
+                      "automation", "support", "writer", "intern*", "junior"]
+max_age_days = 30          # drop jobs posted longer ago than this; 0 = no limit
+
+[scoring]
+# Jobs are sorted by points. The "why" column in the report shows where the points came from.
+remote_points = 5          # the job is remote
+pay_points = 10            # the ad states a salary
+
+[scoring.title]
+# Points when the title contains the word. Negative points push a job down the list.
+"junior" = 15
+"intern*" = 10
+"qa" = 20
+"test*" = 20
+"quality assurance" = 20
+"automation" = 10
+"data" = 10
+"analyst*" = 10
+"security" = 10
+"ai" = 10
+"senior" = -25
+"expert" = -10
+"lead" = -15
+"manager" = -20
+
+[scoring.description]
+# Points when the job ad mentions the word anywhere.
+"python" = 3
+"sql" = 3
+"pytest" = 3
+"playwright" = 2
+"jira" = 2
+"linux" = 2
+"no experience" = 5
+"entry level" = 5
+
+[output]
+folder = "output"          # results go to output/<date>/
+top = 25                   # how many jobs to show in the terminal and in report.md
+
+# Company career pages, read straight from their careers system (new jobs show up here first).
+# To add a company, run:  python -m jobpipe find-ats "Company name"
+# and paste what it prints below. Providers: greenhouse, lever, lever_eu, ashby, workable,
+# smartrecruiters, recruitee.
+
+[[watchlist]]
+company = "GitLab"
+provider = "greenhouse"
+slug = "gitlab"
+
+[[watchlist]]
+company = "Grafana Labs"
+provider = "greenhouse"
+slug = "grafanalabs"
+
+[[watchlist]]
+company = "Testlio"
+provider = "greenhouse"
+slug = "testlio"
+
+[[watchlist]]
+company = "Sentry"
+provider = "ashby"
+slug = "sentry"
+
+[[watchlist]]
+company = "Zapier"
+provider = "ashby"
+slug = "zapier"
+
+[[watchlist]]
+company = "Secureframe"
+provider = "lever"
+slug = "secureframe"
+
+[[watchlist]]
+company = "Hugging Face"
+provider = "workable"
+slug = "huggingface"

@@ -1,0 +1,18 @@
+{"totalCount": 4, "jobs": [
+  {"title": "Ads Quality Rater", "companyName": "Example Rating Co",
+   "applicationLink": "https://himalayas.app/companies/example-rating-co/jobs/ads-quality-rater",
+   "pubDate": 1794497895, "locationRestrictions": ["Bulgaria", "Romania"], "timezoneRestrictions": [],
+   "description": "<p>Rate search ads in your language.</p>"},
+  {"title": "AI Data Quality Reviewer", "companyName": "Umbrella AI",
+   "guid": "https://himalayas.app/companies/umbrella-ai/jobs/ai-data-quality-reviewer",
+   "pubDate": 1794411495, "locationRestrictions": [], "timezoneRestrictions": [],
+   "excerpt": "Review answers written by AI models."},
+  {"title": "Timezone test: Americas hours only", "companyName": "Hooli",
+   "applicationLink": "https://himalayas.app/companies/hooli/jobs/americas-hours",
+   "pubDate": 1794411495, "locationRestrictions": [], "timezoneRestrictions": [-5, -6, -7],
+   "description": "<p>Work US hours.</p>"},
+  {"title": "Compliance Analyst", "companyName": "Vandelay Industries",
+   "applicationLink": "https://himalayas.app/companies/vandelay/jobs/compliance-analyst",
+   "pubDate": "2026-11-15T08:00:00Z", "locationRestrictions": ["Germany", "Austria"], "timezoneRestrictions": [],
+   "description": "<p>GRC work.</p>"}
+]}

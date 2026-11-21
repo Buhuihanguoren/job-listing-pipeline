@@ -1,0 +1,7 @@
+# Jobs whose title OR description contains one of these words or phrases are hidden.
+# Whole words, ignoring case. Put * at the end to match any ending.
+# Add from the command line:  python -m jobpipe block word "commission only"
+commission only
+unpaid
+door to door
+cold calling

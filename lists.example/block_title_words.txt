@@ -1,0 +1,11 @@
+# Jobs whose TITLE contains one of these words are hidden.
+# Whole words, ignoring case. Put * at the end to match any ending (manag* = manager, management).
+# Add from the command line:  python -m jobpipe block title "principal"
+senior
+sr.
+principal
+staff
+director
+head of
+vp
+chief

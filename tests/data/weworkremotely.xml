@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>We Work Remotely: Remote jobs</title>
+    <item>
+      <title>Northwind Data: QA Lead</title>
+      <region>Anywhere in the World</region>
+      <country></country>
+      <link>https://weworkremotely.com/remote-jobs/northwind-data-qa-lead</link>
+      <guid>https://weworkremotely.com/remote-jobs/northwind-data-qa-lead</guid>
+      <pubDate>Wed, 18 Nov 2026 10:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Lead our &lt;strong&gt;QA&lt;/strong&gt; team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vandelay Industries: Data Analyst</title>
+      <region>USA Only</region>
+      <country>United States</country>
+      <link>https://weworkremotely.com/remote-jobs/vandelay-data-analyst</link>
+      <guid>https://weworkremotely.com/remote-jobs/vandelay-data-analyst</guid>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Reports.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brand Designer</title>
+      <region>Europe</region>
+      <country></country>
+      <link>https://weworkremotely.com/remote-jobs/brand-designer</link>
+      <guid>https://weworkremotely.com/remote-jobs/brand-designer</guid>
+      <pubDate>Mon, 16 Nov 2026 10:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Design.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

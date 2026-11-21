@@ -1,0 +1,12 @@
+[
+  {"title": "Test Automation Engineer", "company_name": "Acme Analytics",
+   "url": "https://www.workingnomads.com/jobs/test-automation-engineer-acme", "location": "Anywhere",
+   "pub_date": "2026-11-18T07:00:00+00:00", "description": "<p>Playwright and pytest.</p>"},
+  {"title": "Backend Developer", "company_name": "Globex Labs",
+   "url": "https://www.workingnomads.com/jobs/backend-developer-globex", "location": "US",
+   "pub_date": "2026-11-17T07:00:00+00:00", "description": "<p>Go services.</p>"},
+  {"title": "QA Analyst", "company_name": "Initech", "url": "https://www.workingnomads.com/jobs/qa-analyst-initech",
+   "location": "UTC+2", "pub_date": "2026-11-16T07:00:00+00:00", "description": "<p>Test plans.</p>"},
+  {"title": "Product Designer", "company_name": "Hooli", "url": "https://www.workingnomads.com/jobs/designer-hooli",
+   "location": "Brazil", "pub_date": "2026-11-15T07:00:00+00:00", "description": "<p>Figma.</p>"}
+]

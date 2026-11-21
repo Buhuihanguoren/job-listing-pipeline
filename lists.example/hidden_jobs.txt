@@ -1,0 +1,2 @@
+# Jobs you applied to or don't want to see again: one link per line.
+# Add from the command line:  python -m jobpipe hide <link>

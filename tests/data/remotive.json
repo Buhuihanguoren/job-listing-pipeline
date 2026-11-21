@@ -1,0 +1,15 @@
+{"job-count": 4, "jobs": [
+  {"id": 101, "url": "https://remotive.com/remote-jobs/qa/qa-engineer-101", "title": "Junior QA Engineer",
+   "company_name": "Acme Analytics", "candidate_required_location": "Europe",
+   "publication_date": "2026-11-18T10:00:00", "salary": "",
+   "description": "<p>Test our <b>REST API</b> with pytest.</p><ul><li>Python</li><li>SQL</li></ul><p>Salary: &euro;2,000 - 2,500 a month.</p>"},
+  {"id": 102, "url": "https://remotive.com/remote-jobs/data/data-analyst-102", "title": "Data Analyst",
+   "company_name": "Globex Labs", "candidate_required_location": "USA",
+   "publication_date": "2026-11-17T09:00:00", "description": "<p>Dashboards for US clients.</p>"},
+  {"id": 103, "url": "https://remotive.com/remote-jobs/support/support-specialist-103", "title": "Support Specialist",
+   "company_name": "Initech", "candidate_required_location": "Worldwide",
+   "publication_date": "2026-11-16T08:00:00", "description": "<p>Help customers &amp; write docs.</p>"},
+  {"id": 104, "url": "https://remotive.com/remote-jobs/security/security-analyst-104", "title": "Security Analyst",
+   "company_name": "Northwind Data", "candidate_required_location": "",
+   "publication_date": "2026-11-15T08:00:00", "description": "<p>Monitor alerts.</p>"}
+]}

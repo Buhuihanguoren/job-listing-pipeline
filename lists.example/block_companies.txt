@@ -1,0 +1,7 @@
+# Companies you never want to see, one per line.
+# Matching ignores case and looks anywhere in the company name,
+# so "acme" also blocks "Acme Recruiting Ltd".
+# Add from the command line:  python -m jobpipe block company "Acme Recruiting"
+#
+# Example (remove the # to use it):
+# Acme Recruiting

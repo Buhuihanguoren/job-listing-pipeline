@@ -1,0 +1,37 @@
+[
+ {
+  "legal": "API Terms of Service: link back to the listing on Remote OK and mention Remote OK as the source."
+ },
+ {
+  "position": "QA Engineer",
+  "company": "Acme Analytics",
+  "url": "https://remoteok.com/remote-jobs/1-qa-engineer",
+  "location": "Worldwide",
+  "date": "2026-11-18T10:00:00+00:00",
+  "description": "<p>Test web apps.</p>"
+ },
+ {
+  "position": "Soporte Técnico",
+  "company": "Globex MÃ©xico",
+  "url": "https://remoteok.com/remote-jobs/2-soporte",
+  "location": "MÃ©xico",
+  "epoch": 1794497895,
+  "description": "<p>AtenciÃ³n al cliente.</p>"
+ },
+ {
+  "position": "Data Analyst",
+  "company": "Initech",
+  "url": "https://remoteok.com/remote-jobs/3-data-analyst",
+  "location": "",
+  "date": "2026-11-16T10:00:00+00:00",
+  "description": "<p>SQL reports.</p>"
+ },
+ {
+  "position": "Security Analyst",
+  "company": "Hooli",
+  "url": "https://remoteok.com/remote-jobs/4-security-analyst",
+  "location": "Europe",
+  "date": "2026-11-15T10:00:00+00:00",
+  "description": "<p>SOC work.</p>"
+ }
+]

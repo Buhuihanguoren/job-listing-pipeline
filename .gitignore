@@ -1,0 +1,11 @@
+# your own settings, lists and results stay on your computer
+config.toml
+lists/
+output/
+.cache/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
